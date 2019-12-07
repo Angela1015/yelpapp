@@ -4,7 +4,8 @@ import Business from '../Business/Business';
 
 class BusinessList extends React.Component {
     render() {
-       if(this.props.businesses) {
+        
+        
            return (
             <div className="BusinessList">{
                 this.props.businesses.map(business=>{
@@ -13,7 +14,7 @@ class BusinessList extends React.Component {
             }
                 
             </div>
-        )};
+        );
         return <div></div>
     }
 };
