@@ -2,17 +2,17 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url('https://res.cloudinary.com/cldean11/image/upload/v1574718354/Yelp-App/background-berries_ghrzyy.jpg');
+    background-image: url('https://fruitsandveggies.org/wp-content/uploads/2018/08/hong-w-1382322-unsplash-1440x658.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 25rem;
+    height: 35rem;
   }
   
   .SearchBar-sort-options ul {
     display: flex;
     justify-content: center;
     margin-bottom: 2.22rem;
-    color: #ffffff;
+    color: rgb(29, 51, 124);
   }
   
   .SearchBar-sort-options li {
@@ -28,7 +28,7 @@
   }
   
   .SearchBar-sort-options li:hover {
-    color: #d4cfcf;
+    color:forestgreen;
   }
   
   .SearchBar-sort-options li.active,
@@ -65,7 +65,7 @@
     border-radius: 4px;
     padding: .72rem 1.7rem;
     background-color: #cca353;
-    color: #ffffff;
+    color:  rgb(29, 51, 124);
     font-weight: 600;
     transition: background-color .5s;
   }
